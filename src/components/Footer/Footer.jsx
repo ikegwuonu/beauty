@@ -1,8 +1,8 @@
 import React from 'react'
 import css from './Footer.module.css'
 import Logo from '../../assets/logo.png'
-import {InboxIcon, PhoneIcon, LocationMarkerIcon, LoginIcon, UsersIcon, LinkIcon} from '@heroicons/react/outline'
-
+/*import {InboxIcon, PhoneIcon, LocationMarkerIcon, LoginIcon, UsersIcon, LinkIcon} from '@heroicons/react/outline'
+*/
 const Footer = () => {
   return (
     <div className={css.cFooterWrapper}>
@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className={css.detail}>
                     <span>Contact Us</span>
                     <span className={css.pngLine}>
-                        <LocationMarkerIcon className={css.icon} />
+                      {/*<LocationMarkerIcon className={css.icon} />*/}
                         <span>111 north avenue Orlando, FL 32901</span>
                     </span>
                 </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className={css.detail}>
                     <span>About</span>
                     <span className={css.pngLine}>
-                        <LocationMarkerIcon className={css.icon} />
+                      {/*<LocationMarkerIcon className={css.icon} />*/}
                         <span>111 north avenue Orlando, FL 32901</span>
                     </span>
                 </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className={css.detail}>
                     <span>Company</span>
                     <span className={css.pngLine}>
-                        <LocationMarkerIcon className={css.icon} />
+                      {/*<LocationMarkerIcon className={css.icon} />*/}
                         <span>111 north avenue Orlando, FL 32901</span>
                     </span>
                 </div>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <div className={css.detail}>
                     <span>Resources</span>
                     <span className={css.pngLine}>
-                        <LocationMarkerIcon className={css.icon} />
+                        {/*<LocationMarkerIcon className={css.icon} />*/}
                         <span>111 north avenue Orlando, FL 32901</span>
                     </span>
                 </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <div className={css.detail}>
                     <span>Contact Us</span>
                     <span className={css.pngLine}>
-                        <LocationMarkerIcon className={css.icon} />
+      {/*<LocationMarkerIcon className={css.icon} />*/}
                         <span>111 north avenue Orlando, FL 32901</span>
                     </span>
                 </div>
