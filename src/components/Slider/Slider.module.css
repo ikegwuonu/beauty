@@ -1,0 +1,77 @@
+.s-container{
+    position: relative;
+}
+.mySwiper{
+    width: 80%;
+    height: 12rem;
+    position: relative;
+    display: flex;
+    gap: 4rem;
+        
+}
+.swiper_slide{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.swiper_button_prev{
+    left: -6rem;
+    position:absolute;
+}
+.swiper-button-next{
+    right: 3rem;
+    position:absolute;
+}
+
+.left_s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name>:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.name>:nth-child(2){
+    font-size: 0.7rem;
+}
+.left_s>:nth-child(2){
+    font-weight: bold;
+    font-size: 2rem;
+}
+.left_s>:nth-child(3){
+    font-size: 0.6rem;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 15px;
+}
+.img_p{
+    transform: rotate(-20deg);
+    right:0;
+    width: 4rem;
+    height: 10rem;
+    bottom: 0;  
+}
+
+@media screen and (max-width:856px) {
+    .s-container{
+        width: 90%;
+        height: 10rem;
+    }
+    .s-container .swiper_button_next,
+    .s-container .swiper_button_prev{
+        display: none;
+    }
+}
